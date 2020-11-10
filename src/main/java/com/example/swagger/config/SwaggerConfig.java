@@ -19,15 +19,17 @@ import java.util.ArrayList;
 public class SwaggerConfig {
 
     @Bean
-    public Docket docket1(){
+    public Docket docket1() {
         return new Docket(DocumentationType.SWAGGER_2).groupName("group1");
     }
+
     @Bean
-    public Docket docket2(){
+    public Docket docket2() {
         return new Docket(DocumentationType.SWAGGER_2).groupName("group2");
     }
+
     @Bean
-    public Docket docket3(){
+    public Docket docket3() {
         return new Docket(DocumentationType.SWAGGER_2).groupName("group3");
     }
 
